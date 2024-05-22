@@ -1,9 +1,0 @@
-applications:
-- name: spring-boot-hello-world
-  memory: 1G
-  random-route: true
-  path: ./target/spring-boot-2-hello-world-1.0.2-SNAPSHOT.jar
-  env:
-    JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
-    SPRING_PROFILES_ACTIVE: http2
-    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ } }'
